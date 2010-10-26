@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica;
+}
+
+#footer {
+  font-size: 60%;
+  padding: 15px;
+}
+
+a, a:visited, a:active, h1 {
+  color: #00aee2;
+}
+
+ul.menu {
+  padding: 0;
+  margin-top: 50px;
+	list-style-type: none; 
+	list-style-image: none; 
+}
+
+ul.menu li {
+  display: inline-block;
+  width: 100px;
+}
+
+span.crumbs {
+  
+}
+
+span.crumbs span.current {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.67em 0px;
+  color: #00aee2;
+}
