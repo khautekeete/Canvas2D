@@ -14,12 +14,21 @@ body {
 }
 
 a, a:visited, a:active, h1 {
-  color: #00aee2;
+  color: #f3a662;
+}
+
+h2 {
+ color: #808184;
+ font: 100%/normal arial, helvetica, sans-serif;
+ left: 25px;
+ position: relative;
+ top: -20px;
+ width: 300px; 
 }
 
 ul.menu {
   padding: 0;
-  margin-top: 50px;
+  margin-top: 20px;
 	list-style-type: none; 
 	list-style-image: none; 
 }
@@ -29,13 +38,39 @@ ul.menu li {
   width: 100px;
 }
 
-span.crumbs {
-  
+div.notice {
+  width: 600px;
+  padding: 10px;
+  margin-top: 40px;
+  border: 1px solid #666;
+  background-color: #fbecdf;
+}
+#intro {
+  width: 630px;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 20px;
 }
 
-span.crumbs span.current {
-  font-size: 2em;
-  font-weight: bold;
-  margin: 0.67em 0px;
-  color: #00aee2;
+#what {
+  float: left;
+  width: 400px; 
+  height: 150px;
+  text-align: left;
+}
+
+#download {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  border-left: 1px solid #aaa;
+  margin-left: 20px;
+}
+
+#download h3 {
+  font: 100%/normal arial, helvetica, sans-serif;
+}
+
+#download h4 {
+  text-align: right;
+  font: 70%/normal arial, helvetica, sans-serif;
 }
